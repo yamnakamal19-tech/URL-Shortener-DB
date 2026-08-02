@@ -1,5 +1,18 @@
 # URL Shortener API — Project 3 (Database Integration)
 
+## 📸 Screenshots
+
+### Database created via migration
+![Prisma migration creating the SQLite database](./screenshots/migration.png)
+
+### Full CRUD flow (Create, Read, Update)
+![POST, GET, and PUT requests tested in the terminal](./screenshots/crud-terminal.png)
+
+### Database contents (Prisma Studio)
+![Prisma Studio showing the Link table with real data](./screenshots/prisma-studio.png)
+
+---
+
 Builds on Project 2's API by replacing in-memory storage with a real
 database, using **Prisma** (ORM) + **SQLite** (database engine).
 

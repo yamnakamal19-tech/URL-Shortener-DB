@@ -1,0 +1,18 @@
+{
+  "name": "url-shortener-api-db",
+  "version": "2.0.0",
+  "description": "Project 3 - Database Integration (URL Shortener with Prisma + SQLite)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "prisma migrate dev --name init",
+    "studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  }
+}
